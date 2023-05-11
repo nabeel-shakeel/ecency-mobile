@@ -12,9 +12,8 @@ jobs:
     steps:
       - name: Trigger react-native-version action
         uses: nabeel-shakeel/react-native-version@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           tag-prefix: 'v'
           commit-message: 'chore: react native - android & ios versions updated'
           automatic_release_tag: 'latest'
