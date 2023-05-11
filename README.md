@@ -128,3 +128,7 @@ We will evaluate the risk and make a patch available before filing the issue.
 - React native community
 - Bugsnag
 - Appcenter
+
+
+# Versioning
+- Update app version
