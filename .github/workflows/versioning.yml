@@ -7,7 +7,7 @@ on:
 
 jobs:
   version-bump:
-    name: Bump App Version
+    name: Bump app version
     runs-on: ubuntu-latest
     steps:
       - name: Trigger react-native-version action
